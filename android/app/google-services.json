@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "195753331141",
+    "project_id": "secure-chat-app-2024",
+    "storage_bucket": "secure-chat-app-2024.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195753331141:android:27678f5908f57e9d5e23ac",
+        "android_client_info": {
+          "package_name": "com.example.securely"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195753331141-qvhokce2ft2eg8chc21ctgdu9ckkmg2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEQXXNE8v4YBo05ejasvE7ogQUMwKGMMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195753331141-qvhokce2ft2eg8chc21ctgdu9ckkmg2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
