@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  firebase-emulator:
+    image: node:20-alpine
+    working_dir: /workspace
+    command: >
+      sh -c "npm i -g firebase-tools &&
+             firebase emulators:start --project demo-securely"
+    ports:
+      - "4000:4000"   # Emulator UI
+      - "8080:8080"   # Firestore Emulator
+      - "9099:9099"   # Auth Emulator
+    volumes:
+      - ./:/workspace
+    stdin_open: true
+    tty: true
